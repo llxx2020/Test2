@@ -1,0 +1,306 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "E:\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "lua-debug-x86": {
+      "buildCommand": "E:\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/build/intermediates/ndkBuild/debug/obj/local/x86/liblua.a",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "lua",
+      "files": [
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lapi.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lauxlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lbaselib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lbitlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lcode.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lcorolib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lctype.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldblib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldebug.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldo.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldump.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lfunc.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lgc.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\linit.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\liolib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\llex.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lmathlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lmem.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\loadlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lobject.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lopcodes.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\loslib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lparser.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstate.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstring.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstrlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltable.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltablib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltm.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lundump.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lutf8lib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lvm.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lzio.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\liblua.a"
+    },
+    "luajava-debug-x86": {
+      "buildCommand": "E:\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/build/intermediates/ndkBuild/debug/obj/local/x86/libluajava.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "luajava",
+      "files": [
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lapi.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lauxlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lbaselib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lbitlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lcode.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lcorolib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lctype.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldblib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldebug.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldo.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ldump.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lfunc.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lgc.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\linit.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\liolib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\llex.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lmathlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lmem.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\loadlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lobject.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lopcodes.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\loslib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lparser.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstate.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstring.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lstrlib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltable.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltablib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\ltm.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lundump.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lutf8lib.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lvm.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\lua\\lzio.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/lua -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -pie -fPIE -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        },
+        {
+          "src": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\src\\main\\jni\\luajava\\luajava.c",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot E:/android-sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fPIC -O2 -DNDEBUG -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/luajava/../lua -IC:/Users/Administrator/Desktop/aaa/2222/Usb2-master/androidlua/src/main/jni/luajava -DANDROID -DLUA_DL_DLOPEN -DLUA_USE_C89 -DLUA_COMPAT_5_1 -DLUA_COMPAT_5_2 -DLUA_USE_LINUX -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security -mstackrealign"
+        }
+      ],
+      "output": "C:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\androidlua\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libluajava.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "E:\\android-sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

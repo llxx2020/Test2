@@ -1,0 +1,4 @@
+#Tue Apr 09 13:27:55 CST 2019
+base.0=C\:\\Users\\Administrator\\Desktop\\aaa\\2222\\Usb2-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,2 @@
+cc.chenhe.lib.androidlua
+int string app_name 0x7f150001
